@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* Navigation Bar - Start */
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    background-color: white;
+    z-index: 1;
+}
+
+.left-line-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: green;
+}
+
+.left-line-out:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.left-line-out:hover:after {
+    width: 100%;
+    background: green;
+}
+
+.glyphicon {
+    color: green;
+}
+
+
+/* Green bar that hovers when mouse is over the bar */
+
+.green-divider {
+    background-color: green;
+    height: 3px;
+}
+
+.green-divider:hover {
+    background-color: gold;
+}
+
+
+/* Left float all the content */
+
+.column {
+    float: left;
+}
+
+
+/* profile picture size to fit evenly */
+
+.profile-picture {
+    height: auto;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.image-size {
+    width: 100%;
+}
+
+.works-image-container {
+    border: 1px solid white;
+    width: 100%;
+    margin: 10px auto;
+}

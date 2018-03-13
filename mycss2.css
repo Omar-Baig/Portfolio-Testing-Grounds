@@ -60,9 +60,12 @@ body {
 }
 
 .about {
-    padding-top: 25%;
+    padding-top: 40%;
 }
 
+.works {
+    padding-top: 50%;
+}
 
 
 .image-size-container {
@@ -75,7 +78,10 @@ body {
     min-width: 200px;
 }
 
-
+.work-title-container {
+    width: auto;
+    height: auto;
+}
 
 
 

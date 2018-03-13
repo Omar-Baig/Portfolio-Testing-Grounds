@@ -57,15 +57,15 @@ body {
 .main {
     margin-left: 300px;
     background-color: skyblue;
+    min-width: 100%;
+
 }
 
 .about {
-    padding-top: 40%;
+    padding-top: 450px
 }
 
-.works {
-    padding-top: 50%;
-}
+.works {}
 
 
 .image-size-container {

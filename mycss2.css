@@ -71,10 +71,26 @@ body {
 
 }
 
-.about {
-    position:
+div.about {
+    top: 60%;
+    left: 5%;
+    font-size: 10em;
+    font-weight: 600;
+    position: absolute;
+    letter-spacing: -10px;
+    color: #005c00;
+    overflow: auto;
+
 }
 
+div.about-2 {
+    position: absolute;
+    top: 77%;
+    left: 5%;
+    font-size: 3em;
+    letter-spacing: -3px;
+    color: #005c00;
+}
 
 .section-2 {
     background-image: url(green-leaves.jpg);
@@ -96,12 +112,10 @@ body {
     z-index: -100;
 }
 
-.section-4 {
-    background-image: url(red-bg.jpg);
-    height: 100%;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -100;
-}
+@media only screen and (max-width: 768px) {
+    .about {
+        font-size: 45px;
+        letter-spacing: -2px;
+        text-indent: -2px;
+        margin: 0;
+    }

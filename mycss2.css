@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 html,
@@ -12,16 +12,59 @@ body {
     margin: 0;
 }
 
-.grid-container {
-    height: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 25% 25% 25% 25%;
-    align-content: center;
+
+/* Navigation Bar - Start */
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 3px;
+    background-color: white;
+    z-index: 1;
 }
 
-.grid-container > div {
-    background-color: #ffc9c9;
-    text-align: center;
-    margin: ;
+.left-line-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: green;
+}
+
+.left-line-out:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.left-line-out:hover:after {
+    width: 100%;
+    background: green;
+}
+
+.glyphicon {
+    color: green;
+}
+
+
+/* Green bar that hovers when mouse is over the bar */
+
+.green-divider {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 100, 0, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    height: .2rem;
+}
+
+.background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }

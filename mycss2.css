@@ -68,3 +68,17 @@ body {
     min-height: 100%;
     z-index: -1;
 }
+
+.title {
+    margin: 0 auto;
+    color: white;
+
+}
+
+.section-2 {
+    height: 100vw;
+    margin-top: 100px;
+    position: relative;
+    background-color: white;
+    border: 3px #000000 solid;
+}

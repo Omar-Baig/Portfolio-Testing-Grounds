@@ -86,7 +86,7 @@ div.about {
 div.about-2 {
     position: absolute;
     margin-top: 43%;
-    margin-left: 5.5%;
+    margin-left: 5.4%;
     font-size: 3em;
     letter-spacing: -3px;
     color: #005c00;
@@ -97,7 +97,7 @@ div.about-2 {
     color: #005c00;
     width: 85px;
     margin-top: 46%;
-    margin-left: 5.2%;
+    margin-left: 5%;
     position: absolute;
 }
 
@@ -159,7 +159,7 @@ div.works-2 {
     color: white;
     width: 85px;
     margin-top: 46%;
-    margin-left: 5.5%;
+    margin-left: 5.2%;
     position: absolute;
 }
 
@@ -195,6 +195,57 @@ div.works-2 {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -100;
+}
+
+div.skills {
+    font-size: 10em;
+    font-weight: 600;
+    position: absolute;
+    color: #ff9300;
+    overflow: auto;
+    margin-top: 35%;
+    margin-left: 5%;
+
+}
+
+div.skills-2 {
+    position: absolute;
+    font-size: 3em;
+    letter-spacing: -3px;
+    color: #ff9300;
+    margin-top: 43%;
+    margin-left: 5.5%;
+}
+
+.skills-button {
+    font-size: 20px;
+    color: #ff9300;
+    width: 85px;
+    margin-top: 46%;
+    margin-left: 5.2%;
+    position: absolute;
+}
+
+.skills-left-line-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: #ff9300;
+}
+
+.skills-left-line-out:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.skills-left-line-out:hover:after {
+    width: 100%;
+    background: #ff9300;
 }
 
 @media only screen and (max-width: 768px) {

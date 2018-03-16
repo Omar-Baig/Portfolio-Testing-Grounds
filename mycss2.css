@@ -21,7 +21,7 @@ body {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 3px;
-    background-color: white;
+    background-color: whitesmoke;
     z-index: 1;
 }
 
@@ -61,6 +61,7 @@ body {
 }
 
 .section-1 {
+    /* Intro section */
     background-image: url(white-stairs.jpg);
     height: 100%;
     background-position: center;
@@ -72,12 +73,11 @@ body {
 }
 
 div.about {
-    top: 60%;
-    left: 5%;
+    margin-top: 35%;
+    margin-left: 5%;
     font-size: 10em;
     font-weight: 600;
     position: absolute;
-    letter-spacing: -10px;
     color: #005c00;
     overflow: auto;
 
@@ -85,14 +85,46 @@ div.about {
 
 div.about-2 {
     position: absolute;
-    top: 77%;
-    left: 5%;
+    margin-top: 43%;
+    margin-left: 5.5%;
     font-size: 3em;
     letter-spacing: -3px;
     color: #005c00;
 }
 
+.about-button {
+    font-size: 20px;
+    color: #005c00;
+    width: 85px;
+    margin-top: 46%;
+    margin-left: 5.2%;
+    position: absolute;
+}
+
+.about-left-line-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: #005c00;
+}
+
+.about-left-line-out:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.about-left-line-out:hover:after {
+    width: 100%;
+    background: #005c00;
+}
+
 .section-2 {
+    /* Works section */
     background-image: url(green-leaves.jpg);
     height: 100%;
     background-position: center;
@@ -101,6 +133,59 @@ div.about-2 {
     background-size: cover;
     z-index: -100;
 }
+
+div.works {
+    font-size: 10em;
+    font-weight: 600;
+    position: absolute;
+    color: #ffffff;
+    overflow: auto;
+    margin-top: 35%;
+    margin-left: 5%;
+
+}
+
+div.works-2 {
+    position: absolute;
+    font-size: 3em;
+    letter-spacing: -3px;
+    color: #ffffff;
+    margin-top: 43%;
+    margin-left: 5.5%;
+}
+
+.work-button {
+    font-size: 20px;
+    color: white;
+    width: 85px;
+    margin-top: 46%;
+    margin-left: 5.5%;
+    position: absolute;
+}
+
+.work-left-line-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: #ffffff;
+}
+
+.work-left-line-out:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.work-left-line-out:hover:after {
+    width: 100%;
+    background: #ffffff;
+}
+
+
 
 .section-3 {
     background-image: url(blue-sky.jpg);
@@ -113,9 +198,6 @@ div.about-2 {
 }
 
 @media only screen and (max-width: 768px) {
-    .about {
+    div.about {
         font-size: 45px;
-        letter-spacing: -2px;
-        text-indent: -2px;
-        margin: 0;
     }

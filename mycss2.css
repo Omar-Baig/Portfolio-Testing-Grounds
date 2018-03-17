@@ -72,32 +72,39 @@ body {
 
 }
 
-div.about {
-    margin-top: 35%;
-    margin-left: 5%;
-    font-size: 10em;
-    font-weight: 600;
+.container-1 {
+    position: relative;
+    height: 100%;
+
+}
+
+.text-block {
     position: absolute;
+    bottom: 15%;
+    left: 5%;
     color: #005c00;
-    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: green 3px solid;
+
+}
+
+div.about {
+    font-size: 150px;
+    outline: green 0px 0px 0px 3px solid;
 
 }
 
 div.about-2 {
-    position: absolute;
-    margin-top: 43%;
-    margin-left: 5.4%;
-    font-size: 3em;
-    letter-spacing: -3px;
-    color: #005c00;
+    font-size: 35px;
+    margin-left: 6px;
+
 }
 
 .about-button {
-    font-size: 20px;
+    font-size: 23px;
     color: #005c00;
     width: 85px;
-    margin-top: 46%;
-    margin-left: 5%;
     position: absolute;
 }
 
@@ -250,5 +257,9 @@ div.skills-2 {
 
 @media only screen and (max-width: 768px) {
     div.about {
-        font-size: 45px;
+        overflow: auto;
     }
+    div.about-2 {
+        overflow: auto;
+    }
+}

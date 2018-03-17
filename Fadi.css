@@ -57,11 +57,7 @@ body {
 .green-divider {
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 100, 0, 1) 50%, rgba(255, 255, 255, 1) 100%);
-    height: 1rem;
-}
-
-.green-divider:hover {
-    background-color: gold;
+    height: .1rem;
 }
 
 
@@ -85,7 +81,33 @@ body {
 }
 
 .works-image-container {
-    border: 1px solid white;
     width: 100%;
     margin: 10px auto;
+}
+
+.price-image-size {
+    width: 100%;
+}
+
+.price-image-container {
+    width: 100%;
+    margin: 10px auto;
+    border-top: 5px green solid;
+}
+
+.mwtitle {
+    font-size: 24px;
+    font-weight: 500;
+    border-top: 1px green solid;
+    border-bottom: 1px green solid;
+    padding: 3px;
+}
+
+.price-image-container:hover {
+    transition: ease .1s;
+}
+
+.contact {
+    height: 50px;
+    background: green;
 }

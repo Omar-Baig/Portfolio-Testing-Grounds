@@ -30,27 +30,29 @@
                     <a class="navbar-brand left-line-out" href="#" style="color:black">Omar Baig</a>
                 </div>
                 <ul class="nav navbar-nav navbar-right navbar-collapse collapse" id="NavigationBar">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> About</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Services</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Skills</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                    <li><a href="#" class="left-line-out"><span class="glyphicon glyphicon-user "></span> About</a></li>
+                    <li><a href="#" class="left-line-out"><span class="glyphicon glyphicon-log-in"></span> Works</a></li>
+                    <li><a href="#" class="left-line-out"><span class="glyphicon glyphicon-log-in"></span> Skills</a></li>
+                    <li><a href="#" class="left-line-out"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
                 </ul>
             </div>
         </nav>
     </section>
-    <!-- SERVICES CONTENT -->
+    <!-- INTRODUCTION CONTENT -->
     <div class="green-divider"></div>
 
     <div class="section-1">
-        <div>
-            <div class="about">Hello & Welcome.</div>
-            <div class="about-2">My name is Omar Baig and I am an aspiring front - end developer.</div>
-            <div class="about-button text-center about-left-line-out">More <i class="fa fa-angle-double-right"></i></div>
+        <div class="container-1">
+            <div class="text-block">
+                <div class="about">Hello.</div>
+                <div class="about-2">My name is Omar Baig and I am an aspiring front - end developer.</div>
+                <div class="about-button text-center about-left-line-out" id="More">More <i class="fa fa-angle-double-right"></i></div>
+            </div>
         </div>
     </div>
 
 
-
+    <!-- WORKS CONTENT -->
     <div class="section-2">
         <div>
             <div class="works">Works.</div>
@@ -60,7 +62,7 @@
     </div>
 
 
-
+    <!-- SKILLS CONTENT -->
     <div class="section-3">
         <div>
             <div class="skills">Skills.</div>
@@ -69,9 +71,17 @@
         </div>
     </div>
 
+    <!-- CONTACT CONTENT -->
+
 
     <script>
+        function overlayOn {
+            document.getElementById("overlayOn").style.display = "block";
+        }
 
+        function overlayOff {
+            document.getElementById("overlayOff").style.display = "none";
+        }
 
     </script>
 

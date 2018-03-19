@@ -10,6 +10,7 @@ html,
 body {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -22,10 +23,10 @@ body {
     font-size: 12px;
     letter-spacing: 2px;
     z-index: 1;
-    background-color: transparent;
+    background-color: black;
     position: absolute;
     width: 100%;
-    height: 50px;
+    height: 60px;
 }
 
 .left-line-out {
@@ -71,7 +72,6 @@ body {
     /* Intro section */
     background-image: url(bw-building.jpg);
     height: 100%;
-    min-height: 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -84,8 +84,6 @@ body {
     /* Intro section */
     background-image: url(bw-boat.jpg);
     height: 100%;
-    min-height: 100%;
-    width: 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -98,17 +96,51 @@ body {
     /* Intro section */
     background-image: url(bw-wave.jpg);
     height: 100%;
-    min-height: 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -100;
+}
+
+.s2-title {
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    width: 100%;
 
 }
 
+.work-container {
+    position: relative;
+    top: 35%;
+
+}
+
+.works {
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.works-image-container {
+    width: 100%;
+}
+
+.works-title {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.works-sub-text {
+    color: white;
+}
+
 .main-page {
-    position: absolute;
+    position: relative;
     top: 35%;
     left: 5%;
     color: white;
@@ -122,6 +154,6 @@ body {
 .main-sub {
     font-size: 1.7em;
     width: 26.5em;
-    left: 3%;
-    position: absolute;
+    left: .5%;
+    position: relative;
 }

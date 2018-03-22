@@ -3,76 +3,37 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 html,
 body {
     height: 100%;
     margin: 0;
-}
-
-
-/* Navigation Bar - Start */
-
-.navbar {
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 2px;
-    z-index: 1;
-    background-color: transparent;
-}
-
-.left-line-out {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 3px;
-    color: #ff9300;
-}
-
-.left-line-out:after {
-    content: '';
-    display: block;
-    margin-top: 2px;
-    height: 2px;
-    width: 0px;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
-}
-
-.left-line-out:hover:after {
-    width: 100%;
-    background: #ff9300;
-}
-
-
-/* profile picture size to fit evenly */
-
-#Plexus_Video {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-}
-
-
-.nav-links {
-    float: left;
-    margin-right: 40px;
-    margin-top: 15px;
-    color: #ff9300;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-1 {
-    /* Intro section */
-    background-image: url(bw-building.jpg);
-    height: 100%;
-    background-position: center;
+    background-image: url(barber-chair.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    height: 100%;
     background-size: cover;
-    z-index: -100;
+}
 
+.section-1-text {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: white;
+}
+
+.section-1-title {
+    font-size: 60px;
+}
+
+.section-1-sub {
+    font-size: 25px;
 }

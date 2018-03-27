@@ -27,13 +27,43 @@ body {
     text-align: center;
     top: 50%;
     width: 100%;
-    color: white;
+    color: #000000;
+
 }
 
 .section-1-title {
-    font-size: 60px;
+    font-size: 4.2em;
+    background-color: white;
 }
 
 .section-1-sub {
-    font-size: 25px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.schedule {
+    width: 200px;
+    height: 260px;
+    background-color: #ffffff;
+    margin: 10px 0px 0px 100px;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+
+}
+
+.timings {
+    font-size: 3.5em;
+}
+
+.days {
+    float: left;
+    list-style-type: none;
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+
+.hours {
+    float: right;
+    list-style: none;
+    font-size: 1.4em;
+    margin-right: 10px;
 }

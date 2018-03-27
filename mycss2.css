@@ -52,8 +52,15 @@ body {
 }
 
 .section-1 {
-    height: 50%;
+    height: 100%;
     background-image: url(roadway.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.section-2 {height: 100%;
+    background-image: url(bw-wave.jpg);
     background-attachment: fixed;
     background-size: cover;
 
